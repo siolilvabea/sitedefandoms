@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "MS Gothic", sans-serif;
+    background-color: #1a1a2e;
+    color: #eaeaea;
+}
+
+header {
+    background-color: #16213e;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #e94560;
+}
+
+header h1 {
+    color: #e94560;
+}
+
+nav {
+    background-color: #16213e;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #eaeaea;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #e94560;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #16213e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #e94560;
+    margin-bottom: 15px;
+}
+
+section h3 {
+    color: #e94560;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.grid-imagens {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagem-link {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.imagem-link img {
+    border: 2px solid #e94560;
+}
+
+.imagem-link p {
+    color: #00d9ff;
+}
+
+.personagem {
+    background-color: #0f3460;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.personagem img {
+    border: 2px solid #00d9ff;
+}
+
+.pokemon-card {
+    background-color: #0f3460;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.pokemon-card img {
+    border: 2px solid #e94560;
+}
+
+.pokemon-card a {
+    color: #e94560;
+}
+
+.livro {
+    background-color: #0f3460;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.livro a {
+    color: #e94560;
+}
+
+.creator {
+    background-color: #0f3460;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.creator img {
+    border: 3px solid #00d9ff;
+    float: left;
+    margin-right: 20px;
+}
+
+.botao-voltar {
+    background-color: #e94560;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0f3460;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
